@@ -1,0 +1,25 @@
+{
+  "name": "FoodStuffPriceCompare-App",
+  "version": "1.0.0",
+  "description": "It will help farmers, customers for foodstuff to access prices on markets and compare them before taking an action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ugizwenayo-Divine/FoodStuffPriceCompare-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ugizwenayo-Divine/FoodStuffPriceCompare-App/issues"
+  },
+  "homepage": "https://github.com/Ugizwenayo-Divine/FoodStuffPriceCompare-App#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}

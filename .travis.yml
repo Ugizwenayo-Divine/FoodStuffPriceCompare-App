@@ -1,0 +1,20 @@
+
+language: node_js
+
+node_js:
+  - 13
+
+services:
+- postgresql
+
+before_script:
+- psql -c "create database FoodStuffPriceCompare_db_test;" -U postgres
+
+install:
+  - npm install
+  
+script:
+  - npm test
+ 
+after_success:
+  - npm run coverage
